@@ -1,0 +1,52 @@
+<view class='containe'>
+    <view class='firstlayout'>
+        <image src="{{img}}"  class='firstimagestyle'></image>
+        <text class='firstfontstyle'>{{name}}</text>
+       
+    </view>
+    <view class='containe'>
+        <view class='thirdlayout' bindtap='bindViewTapbasic'>
+            <view class='thirdlayout'>
+                <image class='secondimagestyle' src='/images/5.png'></image>
+                <text class='secondfontstyle'>基本信息</text>
+            </view>
+            <view class='fourthlayout'>
+                <image src='/images/2.png' class='thirdimagestyle'></image>
+            </view>
+        </view>
+        <view class='lineviewtwo'></view>
+
+          <view class='thirdlayout' bindtap='bindViewTapinformation'>
+            <view class='thirdlayout'>
+                <image class='secondimagestyle' src='/images/7.png'></image>
+                <text class='secondfontstyle'>养鸡溯源信息</text>
+            </view>
+            <view class='fourthlayout'>
+                <image src='/images/2.png' class='thirdimagestyle'></image>
+            </view>
+        </view>
+        <view class='lineviewtwo'></view>
+
+        <view class='thirdlayout' bindtap='bindViewTapaddress'>
+            <view class='thirdlayout'>
+                <image class='secondimagestyle' src='/images/3.png'></image>
+                <text class='secondfontstyle'>所在位置</text>
+            </view>
+            <view class='fourthlayout'>
+                <image src='/images/2.png' class='thirdimagestyle'></image>
+            </view>
+        </view>
+        <view class='lineviewtwo'></view>
+
+        <view class='thirdlayout' bindtap='bindViewTapsetup'>
+            <view class='thirdlayout'>
+                <image class='secondimagestyle' src='/images/6.png'></image>
+                <text class='secondfontstyle'>系统设置</text>
+            </view>
+            <view class='fourthlayout'>
+                <image src='/images/2.png' class='thirdimagestyle'></image>
+            </view>
+        </view>
+        <view class='lineviewtwo'></view>
+    </view>
+</view>

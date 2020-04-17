@@ -1,0 +1,35 @@
+<!-- <form bindsubmit="fromSubmit"> -->
+  <view class="table_form">
+    <view class="input bdbt">
+     <view wx:for="{{results}}" wx:for-index="index" wx:for-item="item">鸡场名称：
+{{item.farmName}}</view> 
+    </view>
+    <view class="input bdbt">
+      <view wx:for="{{results}}" wx:for-index="index" wx:for-item="item">鸡苗批次：
+{{item.chickenBatchNum}}</view> 
+    </view>
+
+    <view class="input bdbt">
+     <view wx:for="{{results}}" wx:for-index="index" wx:for-item="item">生产企业：
+{{item.produceEnterprise}}</view> 
+    </view>
+
+    <view class="input bdbt">
+      <view wx:for="{{results}}" wx:for-index="index" wx:for-item="item">鸡苗品种：
+{{item.chickenKind}}</view> 
+    </view>
+
+    <view class="input bdbt">
+      <view wx:for="{{results}}" wx:for-index="index" wx:for-item="item">鸡棚名称：
+{{item.houseName}}</view> 
+    </view>
+    <view class="input bdbt">
+      <view wx:for="{{results}}" wx:for-index="index" wx:for-item="item">地址：
+{{item.address}}</view> 
+    </view>
+  </view>
+  
+  <!-- <button formType="submit" class="table_btn">获取信息</button> -->
+<!-- </form> -->
+
+<view class="jszc">技术支持：电信规划设计院</view>

@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/PersonalPage/PersonalPage",
+    "pages/BasicInformationPage/BasicInformationPage",
+    "pages/SystemSetupPage/SystemSetupPage",
+    "pages/BasicInformationPage/InputPage/InputPage",
+    "pages/SystemSetupPage/SuggestionsPage/SuggestionsPage",
+    "pages/AddressPage/directory",
+    "pages/SuyuanInformation/SuyuanInformation",
+    "pages/tologin/tologin",
+    "pages/SystemSetupPage/AboutUsPage/AboutUsPage"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "农场主",
+    "navigationBarBackgroundColor": "#FF7A34",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}
